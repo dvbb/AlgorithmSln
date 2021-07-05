@@ -1,0 +1,16 @@
+C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\AlgorithmSln\bin\Debug\netcoreapp3.1\AlgorithmSln.exe
+C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\AlgorithmSln\bin\Debug\netcoreapp3.1\AlgorithmSln.deps.json
+C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\AlgorithmSln\bin\Debug\netcoreapp3.1\AlgorithmSln.runtimeconfig.json
+C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\AlgorithmSln\bin\Debug\netcoreapp3.1\AlgorithmSln.runtimeconfig.dev.json
+C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\AlgorithmSln\bin\Debug\netcoreapp3.1\AlgorithmSln.dll
+C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\AlgorithmSln\bin\Debug\netcoreapp3.1\AlgorithmSln.pdb
+C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\AlgorithmSln\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\AlgorithmSln\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\AlgorithmSln\obj\Debug\netcoreapp3.1\AlgorithmSln.csprojAssemblyReference.cache
+C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\AlgorithmSln\obj\Debug\netcoreapp3.1\AlgorithmSln.AssemblyInfoInputs.cache
+C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\AlgorithmSln\obj\Debug\netcoreapp3.1\AlgorithmSln.AssemblyInfo.cs
+C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\AlgorithmSln\obj\Debug\netcoreapp3.1\AlgorithmSln.csproj.CoreCompileInputs.cache
+C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\AlgorithmSln\obj\Debug\netcoreapp3.1\AlgorithmSln.csproj.CopyComplete
+C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\AlgorithmSln\obj\Debug\netcoreapp3.1\AlgorithmSln.dll
+C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\AlgorithmSln\obj\Debug\netcoreapp3.1\AlgorithmSln.pdb
+C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\AlgorithmSln\obj\Debug\netcoreapp3.1\AlgorithmSln.genruntimeconfig.cache
