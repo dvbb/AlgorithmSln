@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rain\\source\\repos\\AlgorithmSln\\AlgorithmSln\\Common\\Common.csproj": {}
+    "E:\\repo\\AlgorithmSln\\AlgorithmSln\\Common\\Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rain\\source\\repos\\AlgorithmSln\\AlgorithmSln\\Common\\Common.csproj": {
+    "E:\\repo\\AlgorithmSln\\AlgorithmSln\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rain\\source\\repos\\AlgorithmSln\\AlgorithmSln\\Common\\Common.csproj",
+        "projectUniqueName": "E:\\repo\\AlgorithmSln\\AlgorithmSln\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\Rain\\source\\repos\\AlgorithmSln\\AlgorithmSln\\Common\\Common.csproj",
+        "projectPath": "E:\\repo\\AlgorithmSln\\AlgorithmSln\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Rain\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rain\\source\\repos\\AlgorithmSln\\AlgorithmSln\\Common\\obj\\",
+        "outputPath": "E:\\repo\\AlgorithmSln\\AlgorithmSln\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

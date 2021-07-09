@@ -3510,11 +3510,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rain\\source\\repos\\AlgorithmSln\\AlgorithmSln\\Tests\\Tests.csproj",
+      "projectUniqueName": "E:\\repo\\AlgorithmSln\\AlgorithmSln\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\Rain\\source\\repos\\AlgorithmSln\\AlgorithmSln\\Tests\\Tests.csproj",
+      "projectPath": "E:\\repo\\AlgorithmSln\\AlgorithmSln\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\Rain\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rain\\source\\repos\\AlgorithmSln\\AlgorithmSln\\Tests\\obj\\",
+      "outputPath": "E:\\repo\\AlgorithmSln\\AlgorithmSln\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3534,8 +3534,8 @@
         "netcoreapp3.1": {
           "targetAlias": ".NETCoreApp,Version=v3.1",
           "projectReferences": {
-            "C:\\Users\\Rain\\source\\repos\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln.csproj": {
-              "projectPath": "C:\\Users\\Rain\\source\\repos\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln.csproj"
+            "E:\\repo\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln.csproj": {
+              "projectPath": "E:\\repo\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln.csproj"
             }
           }
         }

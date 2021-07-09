@@ -7,3 +7,12 @@ C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\Common\obj\Debug\netcoreapp
 C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
 C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\Common\obj\Debug\netcoreapp3.1\Common.dll
 C:\Users\Rain\source\repos\AlgorithmSln\AlgorithmSln\Common\obj\Debug\netcoreapp3.1\Common.pdb
+E:\repo\AlgorithmSln\AlgorithmSln\Common\bin\Debug\netcoreapp3.1\Common.deps.json
+E:\repo\AlgorithmSln\AlgorithmSln\Common\bin\Debug\netcoreapp3.1\Common.dll
+E:\repo\AlgorithmSln\AlgorithmSln\Common\bin\Debug\netcoreapp3.1\Common.pdb
+E:\repo\AlgorithmSln\AlgorithmSln\Common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache
+E:\repo\AlgorithmSln\AlgorithmSln\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+E:\repo\AlgorithmSln\AlgorithmSln\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+E:\repo\AlgorithmSln\AlgorithmSln\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
+E:\repo\AlgorithmSln\AlgorithmSln\Common\obj\Debug\netcoreapp3.1\Common.dll
+E:\repo\AlgorithmSln\AlgorithmSln\Common\obj\Debug\netcoreapp3.1\Common.pdb

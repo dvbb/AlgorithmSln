@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rain\\source\\repos\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln.csproj",
+      "projectUniqueName": "E:\\repo\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln.csproj",
       "projectName": "AlgorithmSln",
-      "projectPath": "C:\\Users\\Rain\\source\\repos\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln.csproj",
+      "projectPath": "E:\\repo\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln.csproj",
       "packagesPath": "C:\\Users\\Rain\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rain\\source\\repos\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln\\obj\\",
+      "outputPath": "E:\\repo\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,8 +57,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Rain\\source\\repos\\AlgorithmSln\\AlgorithmSln\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\Rain\\source\\repos\\AlgorithmSln\\AlgorithmSln\\Common\\Common.csproj"
+            "E:\\repo\\AlgorithmSln\\AlgorithmSln\\Common\\Common.csproj": {
+              "projectPath": "E:\\repo\\AlgorithmSln\\AlgorithmSln\\Common\\Common.csproj"
             }
           }
         }
