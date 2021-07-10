@@ -4,16 +4,18 @@ using System.Collections.Generic;
 using System.Text;
 using Common;
 using NUnit.Framework;
+using AlgorithmSln.Interface;
+
 namespace Tests
 {
     public class SumOfTwoNumbersTests
     {
-        private  SumOfTwoNumbers member;
+        private  ISumOfTwoNumbers _member;
 
         [SetUp]
         public void Setup()
         {
-            member = new SumOfTwoNumbers();
+            _member = new SumOfTwoNumbers();
         }
 
         [Test]
@@ -27,10 +29,10 @@ namespace Tests
             string expected2 = "[1,2]";
             string expected3 = "[0,1]";
             string expected4 = "[0,3]";
-            Assert.IsTrue(MyFormat.Format(member.TwoSum(nums1, 9)) == expected1);
-            Assert.IsTrue(MyFormat.Format(member.TwoSum(nums2, 6)) == expected2);
-            Assert.IsTrue(MyFormat.Format(member.TwoSum(nums3, 6)) == expected3);
-            Assert.IsTrue(MyFormat.Format(member.TwoSum(nums4, 6)) == expected4);
+            Assert.IsTrue(MyFormat.Format(_member.TwoSum(nums1, 9)) == expected1);
+            Assert.IsTrue(MyFormat.Format(_member.TwoSum(nums2, 6)) == expected2);
+            Assert.IsTrue(MyFormat.Format(_member.TwoSum(nums3, 6)) == expected3);
+            Assert.IsTrue(MyFormat.Format(_member.TwoSum(nums4, 6)) == expected4);
         }
     }
 }

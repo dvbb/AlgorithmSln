@@ -1,11 +1,12 @@
-﻿using System;
+﻿using AlgorithmSln.Interface;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
 namespace AlgorithmSln
 {
-    public class SumOfTwoNumbers
+    public class SumOfTwoNumbers : ISumOfTwoNumbers
     {
         //intpu：nums = [2,7,11,15], target = 9
         //output：[0,1]
