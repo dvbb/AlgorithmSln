@@ -6,6 +6,6 @@ namespace AlgorithmSln.Interface
 {
     public interface ISumOfTwoNumbers
     {
-         int[] TwoSum(int[] nums, int target);
+         int[] TwoSumAdd(int[] nums, int target);
     }
 }

@@ -8,8 +8,10 @@ namespace AlgorithmSln
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            int[] nums = { 4, 5, 3, 6, 788, 5 };
-            MyDisplay.Show(nums);
+
+            int temp = -4518;
+            RevertInteger s = new RevertInteger();
+            Console.WriteLine(s.Reverse(temp));
         }
     }
 }
