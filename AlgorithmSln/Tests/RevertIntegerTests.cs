@@ -4,7 +4,7 @@ using System.Text;
 using AlgorithmSln;
 using NUnit.Framework;
 
-namespace Tests
+namespace AlgorithmTests
 {
     public class RevertIntegerTests
     {
