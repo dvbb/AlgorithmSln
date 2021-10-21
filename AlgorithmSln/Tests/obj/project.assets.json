@@ -3504,27 +3504,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rain\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\v-cruan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\repo\\AlgorithmSln\\AlgorithmSln\\Tests\\Tests.csproj",
+      "projectUniqueName": "D:\\repo\\AlgorithmSln\\AlgorithmSln\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "E:\\repo\\AlgorithmSln\\AlgorithmSln\\Tests\\Tests.csproj",
-      "packagesPath": "C:\\Users\\Rain\\.nuget\\packages\\",
-      "outputPath": "E:\\repo\\AlgorithmSln\\AlgorithmSln\\Tests\\obj\\",
+      "projectPath": "D:\\repo\\AlgorithmSln\\AlgorithmSln\\Tests\\Tests.csproj",
+      "packagesPath": "C:\\Users\\v-cruan\\.nuget\\packages\\",
+      "outputPath": "D:\\repo\\AlgorithmSln\\AlgorithmSln\\Tests\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Rain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\v-cruan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        ".NETCoreApp,Version=v3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -3534,8 +3530,8 @@
         "netcoreapp3.1": {
           "targetAlias": ".NETCoreApp,Version=v3.1",
           "projectReferences": {
-            "E:\\repo\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln.csproj": {
-              "projectPath": "E:\\repo\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln.csproj"
+            "D:\\repo\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln.csproj": {
+              "projectPath": "D:\\repo\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln\\AlgorithmSln.csproj"
             }
           }
         }
@@ -3582,7 +3578,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
