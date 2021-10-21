@@ -46,3 +46,4 @@ D:\repo\AlgorithmSln\AlgorithmSln\AlgorithmSln\obj\Debug\netcoreapp3.1\Algorithm
 D:\repo\AlgorithmSln\AlgorithmSln\AlgorithmSln\obj\Debug\netcoreapp3.1\AlgorithmSln.dll
 D:\repo\AlgorithmSln\AlgorithmSln\AlgorithmSln\obj\Debug\netcoreapp3.1\AlgorithmSln.pdb
 D:\repo\AlgorithmSln\AlgorithmSln\AlgorithmSln\obj\Debug\netcoreapp3.1\AlgorithmSln.genruntimeconfig.cache
+D:\repo\AlgorithmSln\AlgorithmSln\AlgorithmSln\obj\Debug\netcoreapp3.1\AlgorithmSln.csproj.CopyComplete

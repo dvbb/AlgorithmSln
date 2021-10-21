@@ -313,3 +313,4 @@ D:\repo\AlgorithmSln\AlgorithmSln\Tests\obj\Debug\.netcoreapp,version=v3.1\Tests
 D:\repo\AlgorithmSln\AlgorithmSln\Tests\obj\Debug\.netcoreapp,version=v3.1\Tests.dll
 D:\repo\AlgorithmSln\AlgorithmSln\Tests\obj\Debug\.netcoreapp,version=v3.1\Tests.pdb
 D:\repo\AlgorithmSln\AlgorithmSln\Tests\obj\Debug\.netcoreapp,version=v3.1\Tests.genruntimeconfig.cache
+D:\repo\AlgorithmSln\AlgorithmSln\Tests\obj\Debug\.netcoreapp,version=v3.1\Tests.csproj.CopyComplete

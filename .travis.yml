@@ -7,4 +7,5 @@ install:
   - nuget restore ./AlgorithmSln/AlgorithmSln.sln
   
 script:
+  - dotnet build ./AlgorithmSln/AlgorithmSln.sln
   - dotnet test ./AlgorithmSln/AlgorithmSln.sln
