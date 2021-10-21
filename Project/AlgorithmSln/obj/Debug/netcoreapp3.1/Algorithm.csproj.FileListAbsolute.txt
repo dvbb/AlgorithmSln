@@ -1,0 +1,17 @@
+D:\repo\AlgorithmSln\Project\AlgorithmSln\bin\Debug\netcoreapp3.1\Algorithm.exe
+D:\repo\AlgorithmSln\Project\AlgorithmSln\bin\Debug\netcoreapp3.1\Algorithm.deps.json
+D:\repo\AlgorithmSln\Project\AlgorithmSln\bin\Debug\netcoreapp3.1\Algorithm.runtimeconfig.json
+D:\repo\AlgorithmSln\Project\AlgorithmSln\bin\Debug\netcoreapp3.1\Algorithm.runtimeconfig.dev.json
+D:\repo\AlgorithmSln\Project\AlgorithmSln\bin\Debug\netcoreapp3.1\Algorithm.dll
+D:\repo\AlgorithmSln\Project\AlgorithmSln\bin\Debug\netcoreapp3.1\Algorithm.pdb
+D:\repo\AlgorithmSln\Project\AlgorithmSln\bin\Debug\netcoreapp3.1\Common.dll
+D:\repo\AlgorithmSln\Project\AlgorithmSln\bin\Debug\netcoreapp3.1\Common.pdb
+D:\repo\AlgorithmSln\Project\AlgorithmSln\obj\Debug\netcoreapp3.1\Algorithm.csproj.AssemblyReference.cache
+D:\repo\AlgorithmSln\Project\AlgorithmSln\obj\Debug\netcoreapp3.1\Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+D:\repo\AlgorithmSln\Project\AlgorithmSln\obj\Debug\netcoreapp3.1\Algorithm.AssemblyInfoInputs.cache
+D:\repo\AlgorithmSln\Project\AlgorithmSln\obj\Debug\netcoreapp3.1\Algorithm.AssemblyInfo.cs
+D:\repo\AlgorithmSln\Project\AlgorithmSln\obj\Debug\netcoreapp3.1\Algorithm.csproj.CoreCompileInputs.cache
+D:\repo\AlgorithmSln\Project\AlgorithmSln\obj\Debug\netcoreapp3.1\Algorithm.csproj.CopyComplete
+D:\repo\AlgorithmSln\Project\AlgorithmSln\obj\Debug\netcoreapp3.1\Algorithm.dll
+D:\repo\AlgorithmSln\Project\AlgorithmSln\obj\Debug\netcoreapp3.1\Algorithm.pdb
+D:\repo\AlgorithmSln\Project\AlgorithmSln\obj\Debug\netcoreapp3.1\Algorithm.genruntimeconfig.cache

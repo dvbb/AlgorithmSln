@@ -1,11 +1,11 @@
 language: csharp
-solution: ./AlgorithmSln/AlgorithmSln.sln
+solution: ./Project/Algorithm.sln
 dotnet: 3.1
 
 install:
   - sudo apt-get install nunit-console
-  - nuget restore ./AlgorithmSln/AlgorithmSln.sln
+  - nuget restore ./Project/Algorithm.sln
   
 script:
-  - dotnet build ./AlgorithmSln/AlgorithmSln.sln
-  - dotnet test ./AlgorithmSln/AlgorithmSln.sln
+  - dotnet build ./Project/Algorithm.sln
+  - dotnet test ./Project/Algorithm.sln
