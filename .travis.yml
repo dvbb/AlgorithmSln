@@ -2,9 +2,6 @@ language: csharp
 solution: AlgorithmSln.sln
 mono: none
 dotnet: 3.1
-install:
-  - nuget restore AlgorithmSln.sln
-  - nuget install NUnit.Console -Version 3.9.0 -OutputDirectory testrunner
 script:
-  - msbuild /p:Configuration=Release AlgorithmSln.sln
-  - mono ./testrunner/NUnit.ConsoleRunner.3.9.0/tools/nunit3-console.exe ./AlgorithmTests.Tests/bin/Release/AlgorithmTests.Tests.dll
+  - dotnet restore
+  - dotnet test
