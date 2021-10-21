@@ -1,8 +1,7 @@
 language: csharp
-solution: AlgorithmSln.sln
+solution: .\AlgorithmSln\AlgorithmSln.sln
 mono: none
 dotnet: 3.1
 script:
-  - cd .\AlgorithmSln\
   - dotnet restore
   - dotnet test
