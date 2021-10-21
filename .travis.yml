@@ -3,5 +3,6 @@ solution: AlgorithmSln.sln
 mono: none
 dotnet: 3.1
 script:
+  - cd .\AlgorithmSln\
   - dotnet restore
   - dotnet test
