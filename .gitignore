@@ -171,3 +171,8 @@ AlgorithmSln/Tests/obj/project.assets.json
 AlgorithmSln/Tests/obj/project.nuget.cache
 AlgorithmSln/Tests/obj/Tests.csproj.nuget.dgspec.json
 AlgorithmSln/Tests/obj/Tests.csproj.nuget.g.props
+*.v2
+Project/.vs/Algorithm/v16/.suo
+Project/.vs/Algorithm/v16/.suo
+Project/.vs/Algorithm/v16/.suo
+*.cache
