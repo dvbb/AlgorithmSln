@@ -1,0 +1,10 @@
+D:\repo\AlgorithmSln\Project\Common\bin\Release\netcoreapp3.1\Common.deps.json
+D:\repo\AlgorithmSln\Project\Common\bin\Release\netcoreapp3.1\Common.dll
+D:\repo\AlgorithmSln\Project\Common\bin\Release\netcoreapp3.1\Common.pdb
+D:\repo\AlgorithmSln\Project\Common\obj\Release\netcoreapp3.1\Common.csproj.AssemblyReference.cache
+D:\repo\AlgorithmSln\Project\Common\obj\Release\netcoreapp3.1\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\repo\AlgorithmSln\Project\Common\obj\Release\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+D:\repo\AlgorithmSln\Project\Common\obj\Release\netcoreapp3.1\Common.AssemblyInfo.cs
+D:\repo\AlgorithmSln\Project\Common\obj\Release\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
+D:\repo\AlgorithmSln\Project\Common\obj\Release\netcoreapp3.1\Common.dll
+D:\repo\AlgorithmSln\Project\Common\obj\Release\netcoreapp3.1\Common.pdb
