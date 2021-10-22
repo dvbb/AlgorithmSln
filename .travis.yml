@@ -1,6 +1,5 @@
 language: csharp
 solution: ./Project/Algorithm.sln
-dotnet: 3.1
 
 install:
   - nuget restore ./Project/Algorithm.sln
@@ -10,5 +9,5 @@ install:
 script:
   # - dotnet build ./Project/Algorithm.sln
   # - dotnet test ./Project/Algorithm.sln
-  - msbuild /p:Configuration=Release solution-name.sln
-  - mono ./testrunner/NUnit.ConsoleRunner.3.9.0/tools/nunit3-console.exe ./Project/Tests/bin/Release/.netcoreapp,version=v3.1/Tests.dll
+  - msbuild /p:Configuration=Release ./Project/Algorithm.sln
+  - mono ./testrunner/NUnit.ConsoleRunner.3.9.0/tools/nunit3-console.exe ./MyProject.Tests/bin/Release/MyProject.Tests.dll
