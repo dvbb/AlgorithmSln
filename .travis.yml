@@ -7,7 +7,6 @@ install:
   - sudo apt-get install nunit-console
   
 script:
-  - Install-Package MSTest.TestFramework -Version 2.2.7
   - dotnet --info
   - dotnet build ./Project/Algorithm.sln
   - dotnet test ./Project/Algorithm.sln
