@@ -103,3 +103,4 @@ D:\repo\AlgorithmSln\Project\Tests\obj\Debug\netcoreapp3.1\Tests.csproj.CoreComp
 D:\repo\AlgorithmSln\Project\Tests\obj\Debug\netcoreapp3.1\Tests.dll
 D:\repo\AlgorithmSln\Project\Tests\obj\Debug\netcoreapp3.1\Tests.pdb
 D:\repo\AlgorithmSln\Project\Tests\obj\Debug\netcoreapp3.1\Tests.genruntimeconfig.cache
+D:\repo\AlgorithmSln\Project\Tests\obj\Debug\netcoreapp3.1\Tests.csproj.CopyComplete
