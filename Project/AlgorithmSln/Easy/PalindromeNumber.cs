@@ -18,7 +18,7 @@ namespace AlgorithmSln
             {
                 return false;
             }
-            if (x > -1 && x < 10)
+            if (x < 10)
             {
                 return true;
             }
@@ -28,31 +28,14 @@ namespace AlgorithmSln
             {
                 stack.Push(str[i]);
             }
-            int temp = 0;
-            if (str.Length % 2 == 0)
+            for (int i = str.Length / 2 + str.Length % 2; i < str.Length; i++)
             {
-                temp = str.Length / 2 ;
-            }
-            else
-            {
-                temp = str.Length / 2 + 1;
-            }
-            for (int i = temp; i < str.Length; i++)
-            {
-                if (str[i] == stack.Peek())
-                {
-                    stack.Pop();
-                }
-                else
+                if (stack.Pop()!=str[i])
                 {
                     return false;
                 }
             }
-            if (stack.Count==0)
-            {
-                return true;
-            }
-            return false;
+            return true;
         }
     }
 }

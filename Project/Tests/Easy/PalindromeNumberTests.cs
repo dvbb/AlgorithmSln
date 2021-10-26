@@ -22,10 +22,12 @@ namespace AlorithmTests.Easy
             int num2 = -121;
             int num3 = 10;
             int num4 = 15688651;
-            Assert.AreEqual(_member.IsPalindrome(num1), true);
-            Assert.AreEqual(_member.IsPalindrome(num2), false);
-            Assert.AreEqual(_member.IsPalindrome(num3), false);
-            Assert.AreEqual(_member.IsPalindrome(num4), true);
+            int num5 = 0;
+            Assert.AreEqual(true, _member.IsPalindrome(num1));
+            Assert.AreEqual(false, _member.IsPalindrome(num2));
+            Assert.AreEqual(false, _member.IsPalindrome(num3));
+            Assert.AreEqual(true, _member.IsPalindrome(num4));
+            Assert.AreEqual(true, _member.IsPalindrome(num5));
         }
     }
 }
