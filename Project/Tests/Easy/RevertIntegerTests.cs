@@ -23,14 +23,24 @@ namespace AlorithmTests.Easy
             int num2 = -123;
             int num3 = 120;
             int num4 = 0;
+            int num5 = 1534236469;
+            int num6 = 2147483647;
+            int num7 = -2147483647;
+            int num8 = -2147483648;
+            int expected_border = 0;
             int expected1 = 321;
             int expected2 = -321;
             int expected3 = 21;
             int expected4 = 0;
-            Assert.AreEqual(_member.Reverse(num1), expected1);
-            Assert.AreEqual(_member.Reverse(num2), expected2);
-            Assert.AreEqual(_member.Reverse(num3), expected3);
-            Assert.AreEqual(_member.Reverse(num4), expected4);
+            int expected6 = -1;
+            Assert.AreEqual(expected1,_member.Reverse(num1));
+            Assert.AreEqual(expected2, _member.Reverse(num2));
+            Assert.AreEqual(expected3, _member.Reverse(num3));
+            Assert.AreEqual(expected4, _member.Reverse(num4));
+            Assert.AreEqual(expected_border, _member.Reverse(num5));
+            Assert.AreEqual(expected_border, _member.Reverse(num6));
+            Assert.AreEqual(expected_border, _member.Reverse(num7));
+            Assert.AreEqual(expected_border, _member.Reverse(num8));
         }
     }
 }

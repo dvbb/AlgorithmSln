@@ -14,28 +14,21 @@ namespace AlgorithmSln
         //output: -321
         public int Reverse(int x)
         {
-            int temp;
             int result = 0;
-            if (x < 0)
+            while (x != 0)
             {
-                temp = x * -1;
-                while (temp*1.0 / 10 > 0)
+                if (result > int.MaxValue / 10)
                 {
-                    result = result * 10 + temp % 10;
-                    temp = (temp - temp % 10) / 10;
+                    return 0;
                 }
-                return result * -1;
-            }
-            else
-            {
-                temp = x;
-                while (temp * 1.0 / 10 > 0)
+                if (result < 0 && result*-1 > int.MaxValue / 10)
                 {
-                    result = result * 10 + temp % 10;
-                    temp = (temp - temp % 10) / 10;
+                    return 0;
                 }
-                return result;
+                result = result * 10 + x % 10;
+                x /= 10;
             }
+            return result;
         }
     }
 }

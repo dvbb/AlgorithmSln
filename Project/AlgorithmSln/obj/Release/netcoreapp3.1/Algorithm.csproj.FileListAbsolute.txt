@@ -11,7 +11,6 @@ D:\repo\AlgorithmSln\Project\AlgorithmSln\obj\Release\netcoreapp3.1\Algorithm.Ge
 D:\repo\AlgorithmSln\Project\AlgorithmSln\obj\Release\netcoreapp3.1\Algorithm.AssemblyInfoInputs.cache
 D:\repo\AlgorithmSln\Project\AlgorithmSln\obj\Release\netcoreapp3.1\Algorithm.AssemblyInfo.cs
 D:\repo\AlgorithmSln\Project\AlgorithmSln\obj\Release\netcoreapp3.1\Algorithm.csproj.CoreCompileInputs.cache
-D:\repo\AlgorithmSln\Project\AlgorithmSln\obj\Release\netcoreapp3.1\Algorithm.csproj.CopyComplete
 D:\repo\AlgorithmSln\Project\AlgorithmSln\obj\Release\netcoreapp3.1\Algorithm.dll
 D:\repo\AlgorithmSln\Project\AlgorithmSln\obj\Release\netcoreapp3.1\Algorithm.pdb
 D:\repo\AlgorithmSln\Project\AlgorithmSln\obj\Release\netcoreapp3.1\Algorithm.genruntimeconfig.cache
