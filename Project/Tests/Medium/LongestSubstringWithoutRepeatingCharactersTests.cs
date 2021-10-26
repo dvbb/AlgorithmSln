@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace AlgorithmTests
+namespace AlorithmTests.Medium
 {
     public class LongestSubstringWithoutRepeatingCharactersTests
     {

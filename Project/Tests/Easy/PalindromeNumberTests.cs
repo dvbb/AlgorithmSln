@@ -4,7 +4,7 @@ using System.Text;
 using AlgorithmSln;
 using NUnit.Framework;
 
-namespace AlgorithmTests
+namespace AlorithmTests.Easy
 {
     public class PalindromeNumberTests
     {

@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace AlgorithmTests
+namespace AlgorithmTests.sorter
 {
     public class SortAlgorithmTests
     {

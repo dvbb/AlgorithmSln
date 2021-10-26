@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ABwQQzKadlWQc8fho38vD7pMCoMQHUWaWLlsIuZdLWfpjItJoBGjuUPsgQQbAfL7vWU/DB08TaO8vZy9djZOLQ==",
+  "dgSpecHash": "2rZV7S5ybdk6yyf2SLn2JXQGEJ4e3wQIIpvwK9RLXP1Waxq2MxFWiy9A0A3iQPgisJWcvzCUv1vS3TVssneCmw==",
   "success": true,
-  "projectFilePath": "D:\\repo\\AlgorithmSln\\Project\\Tests\\Tests.csproj",
+  "projectFilePath": "D:\\repo\\AlgorithmSln\\Project\\Tests\\AlorithmTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\v-cruan\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\v-cruan\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",

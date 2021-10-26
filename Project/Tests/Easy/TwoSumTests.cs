@@ -6,7 +6,7 @@ using Common;
 using NUnit.Framework;
 using AlgorithmSln.Interface;
 
-namespace AlgorithmTests
+namespace AlorithmTests.Easy
 {
     public class TwoSumTests
     {

@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithm", "AlgorithmSln\A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{07DE91E0-66BE-4C88-BB03-7F69CFC030BC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{6A826D64-0286-4BE5-90BE-6917ADD18517}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlorithmTests", "Tests\AlorithmTests.csproj", "{6A826D64-0286-4BE5-90BE-6917ADD18517}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
