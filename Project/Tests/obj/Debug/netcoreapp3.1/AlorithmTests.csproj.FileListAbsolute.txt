@@ -103,4 +103,3 @@ D:\repo\AlgorithmSln\Project\Tests\obj\Debug\netcoreapp3.1\AlorithmTests.csproj.
 D:\repo\AlgorithmSln\Project\Tests\obj\Debug\netcoreapp3.1\AlorithmTests.dll
 D:\repo\AlgorithmSln\Project\Tests\obj\Debug\netcoreapp3.1\AlorithmTests.pdb
 D:\repo\AlgorithmSln\Project\Tests\obj\Debug\netcoreapp3.1\AlorithmTests.genruntimeconfig.cache
-D:\repo\AlgorithmSln\Project\Tests\obj\Debug\netcoreapp3.1\AlorithmTests.csproj.CopyComplete
