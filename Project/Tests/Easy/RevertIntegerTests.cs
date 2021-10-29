@@ -32,7 +32,6 @@ namespace AlorithmTests.Easy
             int expected2 = -321;
             int expected3 = 21;
             int expected4 = 0;
-            int expected6 = -1;
             Assert.AreEqual(expected1,_member.Reverse(num1));
             Assert.AreEqual(expected2, _member.Reverse(num2));
             Assert.AreEqual(expected3, _member.Reverse(num3));

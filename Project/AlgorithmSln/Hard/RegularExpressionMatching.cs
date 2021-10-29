@@ -22,8 +22,7 @@ namespace Algorithm.Hard
             {
                 return true;
             }
-            string s5 = "adfsbxbcdacfsc", p5 = "a.*bc.*c";
-            var list = p5.Split(".*");
+            var list = p.Split(".*");
             int j = 0;
             bool result = true;
             for (int i = 0; i < s.Length; i++)
