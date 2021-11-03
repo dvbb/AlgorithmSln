@@ -13,5 +13,20 @@ namespace Common
             this.val = val;
             this.next = next;
         }
+
+        public static ListNode CreateByIntArray(int[] array)
+        {
+            if (array == null) return null;
+            if (array.Length == 1) return new ListNode(array[0]);
+            ListNode head = new ListNode(array[0], new ListNode());
+            ListNode cur = head;
+            for (int i = 1; i < array.Length; i++)
+            {
+                cur.next = new ListNode(array[i], new ListNode());
+                cur = cur.next;
+            }
+            cur.next = null;
+            return head;
+        }
     }
 }
