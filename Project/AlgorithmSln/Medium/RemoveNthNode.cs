@@ -43,5 +43,33 @@ namespace Algorithm.Medium
             }
             return head;
         }
+
+        /// <summary>
+        /// double pointer
+        /// </summary>
+        /// <param name="head"></param>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public ListNode RemoveNthFromEndV2(ListNode head, int n)
+        {
+            if (head.next == null) return null;
+            ListNode pre = new ListNode();
+            ListNode cur = head;
+            pre.next = head;
+            int total = 1;
+            while (cur.next !=null)
+            {
+                total++;
+                cur = cur.next;
+            }
+            cur = pre;
+            for (int i = 0; i < total-n; i++)
+            {
+                cur = cur.next;
+            }
+            if (total - n == 0) return head.next;
+            cur.next = cur.next.next;
+            return head;
+        }
     }
 }

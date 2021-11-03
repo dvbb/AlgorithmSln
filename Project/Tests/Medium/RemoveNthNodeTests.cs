@@ -105,5 +105,25 @@ namespace AlorithmTests.Medium
             Assert.AreEqual(NodeToString(expected4), NodeToString(_member.RemoveNthFromEnd(head4, 2)));
             Assert.AreEqual(NodeToString(expected5), NodeToString(_member.RemoveNthFromEnd(head5, 2)));
         }
+
+        [Test]
+        public void RemoveNthFromEndV2()
+        {
+            ListNode head1 = SetUpListNode(5);   //head1: 1 -> 2 -> 3 -> 4 -> 5
+            ListNode head2 = SetUpListNode(1);   //head2: 1
+            ListNode head3 = SetUpListNode(2);   //head3: 1 -> 2
+            ListNode head4 = SetUpListNode(2);   //head4: 1 -> 2
+            ListNode head5 = GetHead5();         //head5: 52 -> 8 -> 97 -> 100 -> 74
+            ListNode expected1 = GetExpected1();    //expected1: 1 -> 2 -> 3 -> 5
+            ListNode expected2 = null;    //expected2:
+            ListNode expected3 = SetUpListNode(1);  //expected3: 1
+            ListNode expected4 = new ListNode(2);   //expected4: 2
+            ListNode expected5 = GetExpected5();    //expected5: 52 -> 8 -> 97 -> 74
+            Assert.AreEqual(NodeToString(expected1), NodeToString(_member.RemoveNthFromEndV2(head1, 2)));
+            Assert.AreEqual(NodeToString(expected2), NodeToString(_member.RemoveNthFromEndV2(head2, 1)));
+            Assert.AreEqual(NodeToString(expected3), NodeToString(_member.RemoveNthFromEndV2(head3, 1)));
+            Assert.AreEqual(NodeToString(expected4), NodeToString(_member.RemoveNthFromEndV2(head4, 2)));
+            Assert.AreEqual(NodeToString(expected5), NodeToString(_member.RemoveNthFromEndV2(head5, 2)));
+        }
     }
 }
