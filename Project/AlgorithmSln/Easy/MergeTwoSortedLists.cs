@@ -12,49 +12,25 @@ namespace Algorithm.Easy
             if (l1 == null && l2 == null) return null;
             if (l1 == null) return l2;
             if (l2 == null) return l1;
-            ListNode pointer1 = l1;
-            ListNode pointer2 = l2;
-            ListNode result ;
-            if (pointer1.val <= pointer2.val)
-            {
-                result = new ListNode(pointer1.val, new ListNode());
-                pointer1 = pointer1.next;
-            }
-            else
-            {
-                result = new ListNode(pointer2.val, new ListNode());
-                pointer2 = pointer2.next;
-            }
+            ListNode result =new ListNode(0, new ListNode()); ;
             ListNode cur = result;
-            while (pointer1 != null && pointer2 != null)
+            while (l1 != null && l2 != null)
             {
-                if (pointer1.val <= pointer2.val)
+                if (l1.val < l2.val)
                 {
-                    cur.next = new ListNode(pointer1.val, new ListNode());
+                    cur.next = new ListNode(l1.val, new ListNode());
                     cur = cur.next;
-                    pointer1 = pointer1.next;
+                    l1 = l1.next;
                 }
                 else
                 {
-                    cur.next = new ListNode(pointer2.val, new ListNode());
+                    cur.next = new ListNode(l2.val, new ListNode());
                     cur = cur.next;
-                    pointer2 = pointer2.next;
+                    l2 = l2.next;
                 }
             }
-            while (pointer1 != null)
-            {
-                cur.next = new ListNode(pointer1.val, new ListNode());
-                cur = cur.next;
-                pointer1 = pointer1.next;
-            }
-            while (pointer2 != null)
-            {
-                cur.next = new ListNode(pointer2.val, new ListNode());
-                cur = cur.next;
-                pointer2 = pointer2.next;
-            }
-            cur.next = null;
-            return result;
+            cur.next = l1 == null ? l2 : l1;
+            return result.next;
         }
 
         /// <summary>
