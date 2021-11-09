@@ -29,5 +29,27 @@ namespace Common
             } while (cur != null);
             return str.Substring(0, str.Length - 1) + "]";
         }
+
+        public static string IntegerArrayToString(int[] nums)
+        {
+            if (nums.Length == 0) return "[]";
+            string str = "[";
+            for (int i = 0; i < nums.Length; i++)
+            {
+                str += nums[i] + ",";
+            }
+            return str.Substring(0, str.Length - 1) + "]";
+        }
+
+        public static string IntegerArrayToString(int[] nums, int length)
+        {
+            if (nums.Length == 0) return "[]";
+            string str = "[";
+            for (int i = 0; i < length; i++)
+            {
+                str += nums[i] + ",";
+            }
+            return str.Substring(0, str.Length - 1) + "]";
+        }
     }
 }

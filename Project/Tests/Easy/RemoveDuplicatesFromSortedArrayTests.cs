@@ -1,4 +1,5 @@
 ﻿using Algorithm.Easy;
+using Common;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -26,18 +27,23 @@ namespace AlorithmTests.Easy
         {
             int[] nums1 = new int[] { 1, 1, 2 };
             int expected1 = 2;
+            int[] expectedNums1 = new int[] { 1, 2 };
 
             int[] nums2 = new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
             int expected2 = 5;
+            int[] expectedNums2 = new int[] { 0, 1, 2, 3, 4 };
 
             int[] nums3 = new int[] { };
             int expected3 = 0;
+            int[] expectedNums3 = new int[] { };
 
             int[] nums4 = new int[] { 1 };
             int expected4 = 1;
+            int[] expectedNums4 = new int[] { 1 };
 
-            int[] nums5 = new int[] { -100, -56, -56, -21, -12,0,0, 0, 2, 2, 8, 15, 15, 26, 26, 26, 52, 99, 99, 99, 100 };
+            int[] nums5 = new int[] { -100, -56, -56, -21, -12, 0, 0, 0, 2, 2, 8, 15, 15, 26, 26, 26, 52, 99, 99, 99, 100 };
             int expected5 = 12;
+            int[] expectedNums5 = new int[] { -100, -56, -21, -12, 0, 2, 8, 15, 26, 52, 99, 100 };
 
             Assert.AreEqual(expected1, _member.RemoveDuplicates(nums1));
             Assert.AreEqual(expected2, _member.RemoveDuplicates(nums2));

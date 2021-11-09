@@ -21,10 +21,10 @@ namespace Algorithm.Easy
             int temp = 0;
             for (int i = 1; i < nums.Length; i++)
             {
-                if (nums[i]>nums[temp])
+                if (nums[i] > nums[temp])
                 {
-                    nums[temp+1] = nums[i];
-                    temp ++;
+                    nums[temp + 1] = nums[i];
+                    temp++;
                     total++;
                 }
             }
