@@ -38,5 +38,24 @@ namespace AlorithmTests.Easy
             Assert.AreEqual(6,_member.StrStr(haystack6,needle6));
             Assert.AreEqual(0,_member.StrStr(haystack7,needle7));
         }
+
+        [Test]
+        public void strStrV2_KMP()
+        {
+            string haystack1 = "hello", needle1 = "ll";
+            string haystack2 = "aaaaa", needle2 = "bba";
+            string haystack3 = "", needle3 = "";
+            string haystack4 = "", needle4 = "adx";
+            string haystack5 = "dfs", needle5 = "";
+            string haystack6 = "abccdsccx", needle6 = "ccx";
+            string haystack7 = "avvbvvcsxcxdfvvbvvxs", needle7 = "avv";
+            Assert.AreEqual(2, _member.StrStrV2(haystack1, needle1));
+            Assert.AreEqual(-1, _member.StrStrV2(haystack2, needle2));
+            Assert.AreEqual(0, _member.StrStrV2(haystack3, needle3));
+            Assert.AreEqual(-1, _member.StrStrV2(haystack4, needle4));
+            Assert.AreEqual(0, _member.StrStrV2(haystack5, needle5));
+            Assert.AreEqual(6, _member.StrStrV2(haystack6, needle6));
+            Assert.AreEqual(0, _member.StrStrV2(haystack7, needle7));
+        }
     }
 }
