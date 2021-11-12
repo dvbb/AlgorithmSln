@@ -19,6 +19,7 @@ namespace Algorithm.Sorter
             int[] right = Utilities.CopyArray(nums, nums.Length / 2, nums.Length);
             return Merge(Sort(left), Sort(right));
         }
+
         public int[] Merge(int[] left, int[] right)
         {
             int[] result = new int[left.Length + right.Length];
@@ -36,7 +37,7 @@ namespace Algorithm.Sorter
                 else
                 {
                     result[count] = left[i];
-                    i++;
+                     i++;
                     count++;
                 }
             }
