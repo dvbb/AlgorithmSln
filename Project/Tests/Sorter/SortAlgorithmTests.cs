@@ -1,4 +1,5 @@
-﻿using AlgorithmSln;
+﻿using Algorithm.Sorter;
+using AlgorithmSln;
 using AlgorithmSln.Interface;
 using Common;
 using NUnit.Framework;
@@ -11,10 +12,20 @@ namespace AlgorithmTests.sorter
     public class SortAlgorithmTests
     {
         private ISortAlgorithm _member;
+        private BubbleSort bubbleSort;
+        private SelectionSort selectionSort;
+        private InsertionSort insertionSort;
+        private ShellSort shellSort;
+        private MergeSort mergeSort;
         [SetUp]
         public void Setup()
         {
-            _member = new SortAlgorithm();
+            bubbleSort = new BubbleSort();
+            selectionSort = new SelectionSort();
+            insertionSort = new InsertionSort();
+            selectionSort = new SelectionSort();
+            shellSort = new ShellSort();
+            mergeSort = new MergeSort();
         }
 
         [Test]
@@ -24,8 +35,8 @@ namespace AlgorithmTests.sorter
             int[] nums2 = { 3, 44, 38, 5, 5, 3, 92, 66 };
             string expected1 = "[2,8,15,92]";
             string expected2 = "[3,3,5,5,38,44,66,92]";
-            Assert.AreEqual(MyFormat.Format(_member.BubbleSort(nums1)), expected1);
-            Assert.AreEqual(MyFormat.Format(_member.BubbleSort(nums2)), expected2);
+            Assert.AreEqual(MyFormat.Format(bubbleSort.Sort(nums1)), expected1);
+            Assert.AreEqual(MyFormat.Format(bubbleSort.Sort(nums2)), expected2);
         }
 
         [Test]
@@ -35,8 +46,8 @@ namespace AlgorithmTests.sorter
             int[] nums2 = { 3, 44, 38, 5, 5, 3, 92, 66 };
             string expected1 = "[2,8,15,92]";
             string expected2 = "[3,3,5,5,38,44,66,92]";
-            Assert.AreEqual(MyFormat.Format(_member.SelectionSort(nums1)), expected1);
-            Assert.AreEqual(MyFormat.Format(_member.SelectionSort(nums2)), expected2);
+            Assert.AreEqual(MyFormat.Format(selectionSort.Sort(nums1)), expected1);
+            Assert.AreEqual(MyFormat.Format(selectionSort.Sort(nums2)), expected2);
         }
 
         [Test]
@@ -46,8 +57,8 @@ namespace AlgorithmTests.sorter
             int[] nums2 = { 3, 44, 38, 5, 5, 3, 92, 66 };
             string expected1 = "[2,8,15,92]";
             string expected2 = "[3,3,5,5,38,44,66,92]";
-            Assert.AreEqual(MyFormat.Format(_member.InsertionSort(nums1)), expected1);
-            Assert.AreEqual(MyFormat.Format(_member.InsertionSort(nums2)), expected2);
+            Assert.AreEqual(MyFormat.Format(insertionSort.Sort(nums1)), expected1);
+            Assert.AreEqual(MyFormat.Format(insertionSort.Sort(nums2)), expected2);
         }
 
         [Test]
@@ -57,8 +68,8 @@ namespace AlgorithmTests.sorter
             int[] nums2 = { 3, 44, 38, 5, 5, 3, 92, 66 };
             string expected1 = "[2,8,15,92]";
             string expected2 = "[3,3,5,5,38,44,66,92]";
-            Assert.AreEqual(MyFormat.Format(_member.ShellSort(nums1)), expected1);
-            Assert.AreEqual(MyFormat.Format(_member.ShellSort(nums2)), expected2);
+            Assert.AreEqual(MyFormat.Format(shellSort.Sort(nums1)), expected1);
+            Assert.AreEqual(MyFormat.Format(shellSort.Sort(nums2)), expected2);
         }
 
         [Test]
@@ -68,8 +79,8 @@ namespace AlgorithmTests.sorter
             int[] nums2 = { 3, 44, 38, 5, 5, 3, 92, 66 };
             string expected1 = "[2,8,15,92]";
             string expected2 = "[3,3,5,5,38,44,66,92]";
-            Assert.AreEqual(MyFormat.Format(_member.MergeSort(nums1)), expected1);
-            Assert.AreEqual(MyFormat.Format(_member.MergeSort(nums2)), expected2);
+            Assert.AreEqual(MyFormat.Format(mergeSort.Sort(nums1)), expected1);
+            Assert.AreEqual(MyFormat.Format(mergeSort.Sort(nums2)), expected2);
         }
     }
 }
