@@ -1,0 +1,3 @@
+ public static ProvisioningState Failed { get; }
+393	        public static ProvisioningState Moving { get; }
+394	        public static ProvisioningState Running { get; }
