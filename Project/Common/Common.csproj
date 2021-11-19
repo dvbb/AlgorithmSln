@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>D:\repo\AlgorithmSln\Project\artifacts\bin\Common\Debug\</OutputPath>
+    <OutputPath>.\..\..\artifacts\bin\Common\Debug\</OutputPath>
+    <!--<BaseIntermediateOutputPath>.\..\..\artifacts\obj\Common\</BaseIntermediateOutputPath>-->
+    <!--<UseHostCompilerIfAvailable>false</UseHostCompilerIfAvailable>-->
   </PropertyGroup>
 
 </Project>

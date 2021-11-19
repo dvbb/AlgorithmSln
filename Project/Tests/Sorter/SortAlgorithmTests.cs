@@ -11,7 +11,7 @@ namespace AlgorithmTests.sorter
 {
     public class SortAlgorithmTests
     {
-        private ISortAlgorithm _member;
+        //private ISortAlgorithm _member;
         private BubbleSort bubbleSort;
         private SelectionSort selectionSort;
         private InsertionSort insertionSort;

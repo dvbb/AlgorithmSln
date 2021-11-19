@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>D:\repo\AlgorithmSln\artifacts\bin\Algorithm\Debug\</OutputPath>
+    <OutputPath>.\..\..\artifacts\bin\Algorithm\Debug\</OutputPath>
+    <!-- <BaseIntermediateOutputPath>.\..\..\artifacts\obj\Algorithm\</BaseIntermediateOutputPath>
+    <UseHostCompilerIfAvailable>false</UseHostCompilerIfAvailable> -->
   </PropertyGroup>
 
   <ItemGroup>
