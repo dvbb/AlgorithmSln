@@ -29,7 +29,7 @@ namespace Algorithm.AutoGenerator
 
         private static string[] GetComments()
         {
-            List<string> list = new List<string>(File.ReadAllLines(@"..\..\..\AutoGenerator\comments.txt"));
+            List<string> list = new List<string>(File.ReadAllLines(@".\..\..\..\..\..\Project\AlgorithmSln\AutoGenerator\comments.txt"));
             list.Remove("");
             return list.ToArray();
         }

@@ -16,7 +16,7 @@ namespace Algorithm.AutoGenerator
         {
             _className = className;
             _funcName = funcName;
-            _outfolder = $@"..\..\..\..\Tests\Medium\{_className}Tests.cs";
+            _outfolder = $@".\..\..\..\..\..\Project\Tests\Medium\{_className}Tests.cs";
         }
 
         internal void Generate()
