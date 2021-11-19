@@ -64,7 +64,7 @@ namespace AlorithmTests.Medium
             return head;
         }
         
-        //private string NodeToString(ListNode head)
+        //private string Convert(ListNode head)
         //{
         //    if (head == null) return "[]";
         //    string str = "[";
@@ -96,11 +96,11 @@ namespace AlorithmTests.Medium
             ListNode expected3 = SetUpListNode(1);  //expected3: 1
             ListNode expected4 = new ListNode(2);   //expected4: 2
             ListNode expected5 = GetExpected5();    //expected5: 52 -> 8 -> 97 -> 74
-            Assert.AreEqual(MyFormat.NodeToString(expected1), MyFormat.NodeToString(_member.RemoveNthFromEnd(head1, 2)));
-            Assert.AreEqual(MyFormat.NodeToString(expected2), MyFormat.NodeToString(_member.RemoveNthFromEnd(head2, 1)));
-            Assert.AreEqual(MyFormat.NodeToString(expected3), MyFormat.NodeToString(_member.RemoveNthFromEnd(head3, 1)));
-            Assert.AreEqual(MyFormat.NodeToString(expected4), MyFormat.NodeToString(_member.RemoveNthFromEnd(head4, 2)));
-            Assert.AreEqual(MyFormat.NodeToString(expected5), MyFormat.NodeToString(_member.RemoveNthFromEnd(head5, 2)));
+            Assert.AreEqual(MyFormat.Convert(expected1), MyFormat.Convert(_member.RemoveNthFromEnd(head1, 2)));
+            Assert.AreEqual(MyFormat.Convert(expected2), MyFormat.Convert(_member.RemoveNthFromEnd(head2, 1)));
+            Assert.AreEqual(MyFormat.Convert(expected3), MyFormat.Convert(_member.RemoveNthFromEnd(head3, 1)));
+            Assert.AreEqual(MyFormat.Convert(expected4), MyFormat.Convert(_member.RemoveNthFromEnd(head4, 2)));
+            Assert.AreEqual(MyFormat.Convert(expected5), MyFormat.Convert(_member.RemoveNthFromEnd(head5, 2)));
         }
 
         [Test]
@@ -116,11 +116,11 @@ namespace AlorithmTests.Medium
             ListNode expected3 = SetUpListNode(1);  //expected3: 1
             ListNode expected4 = new ListNode(2);   //expected4: 2
             ListNode expected5 = GetExpected5();    //expected5: 52 -> 8 -> 97 -> 74
-            Assert.AreEqual(MyFormat.NodeToString(expected1), MyFormat.NodeToString(_member.RemoveNthFromEndV2(head1, 2)));
-            Assert.AreEqual(MyFormat.NodeToString(expected2), MyFormat.NodeToString(_member.RemoveNthFromEndV2(head2, 1)));
-            Assert.AreEqual(MyFormat.NodeToString(expected3), MyFormat.NodeToString(_member.RemoveNthFromEndV2(head3, 1)));
-            Assert.AreEqual(MyFormat.NodeToString(expected4), MyFormat.NodeToString(_member.RemoveNthFromEndV2(head4, 2)));
-            Assert.AreEqual(MyFormat.NodeToString(expected5), MyFormat.NodeToString(_member.RemoveNthFromEndV2(head5, 2)));
+            Assert.AreEqual(MyFormat.Convert(expected1), MyFormat.Convert(_member.RemoveNthFromEndV2(head1, 2)));
+            Assert.AreEqual(MyFormat.Convert(expected2), MyFormat.Convert(_member.RemoveNthFromEndV2(head2, 1)));
+            Assert.AreEqual(MyFormat.Convert(expected3), MyFormat.Convert(_member.RemoveNthFromEndV2(head3, 1)));
+            Assert.AreEqual(MyFormat.Convert(expected4), MyFormat.Convert(_member.RemoveNthFromEndV2(head4, 2)));
+            Assert.AreEqual(MyFormat.Convert(expected5), MyFormat.Convert(_member.RemoveNthFromEndV2(head5, 2)));
         }
     }
 }

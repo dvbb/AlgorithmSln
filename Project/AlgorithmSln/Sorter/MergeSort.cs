@@ -15,8 +15,8 @@ namespace Algorithm.Sorter
             {
                 return nums;
             }
-            int[] left = Utilities.CopyArray(nums, 0, nums.Length / 2);
-            int[] right = Utilities.CopyArray(nums, nums.Length / 2, nums.Length);
+            int[] left = Utilities.CopyTo(nums, 0, nums.Length / 2);
+            int[] right = Utilities.CopyTo(nums, nums.Length / 2, nums.Length);
             return Merge(Sort(left), Sort(right));
         }
 

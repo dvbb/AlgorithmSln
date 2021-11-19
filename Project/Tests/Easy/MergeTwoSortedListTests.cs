@@ -45,10 +45,10 @@ namespace AlorithmTests.Easy
             ListNode inputL42 = ListNode.CreateByIntArray(new int[] { -75, -22, 1 });
             ListNode expectedList4 = ListNode.CreateByIntArray(new int[] { -100,-75, -22,-2, 0,1, 1, 1, 25, 100 });
 
-            Assert.AreEqual(MyFormat.NodeToString(expectedList1), MyFormat.NodeToString(_member.MergeTwoLists(inputL11, inputL12)));
-            Assert.AreEqual(MyFormat.NodeToString(expectedList2), MyFormat.NodeToString(_member.MergeTwoLists(inputL21, inputL22)));
-            Assert.AreEqual(MyFormat.NodeToString(expectedList3), MyFormat.NodeToString(_member.MergeTwoLists(inputL31, inputL32)));
-            Assert.AreEqual(MyFormat.NodeToString(expectedList4), MyFormat.NodeToString(_member.MergeTwoLists(inputL41, inputL42)));
+            Assert.AreEqual(MyFormat.Convert(expectedList1), MyFormat.Convert(_member.MergeTwoLists(inputL11, inputL12)));
+            Assert.AreEqual(MyFormat.Convert(expectedList2), MyFormat.Convert(_member.MergeTwoLists(inputL21, inputL22)));
+            Assert.AreEqual(MyFormat.Convert(expectedList3), MyFormat.Convert(_member.MergeTwoLists(inputL31, inputL32)));
+            Assert.AreEqual(MyFormat.Convert(expectedList4), MyFormat.Convert(_member.MergeTwoLists(inputL41, inputL42)));
         }
 
         [Test]
@@ -74,10 +74,10 @@ namespace AlorithmTests.Easy
             ListNode inputL42 = ListNode.CreateByIntArray(new int[] { -75, -22, 1 });
             ListNode expectedList4 = ListNode.CreateByIntArray(new int[] { -100, -75, -22, -2, 0, 1, 1, 1, 25, 100 });
 
-            Assert.AreEqual(MyFormat.NodeToString(expectedList1), MyFormat.NodeToString(_member.MergeTwoListsV2(inputL11, inputL12)));
-            Assert.AreEqual(MyFormat.NodeToString(expectedList2), MyFormat.NodeToString(_member.MergeTwoListsV2(inputL21, inputL22)));
-            Assert.AreEqual(MyFormat.NodeToString(expectedList3), MyFormat.NodeToString(_member.MergeTwoListsV2(inputL31, inputL32)));
-            Assert.AreEqual(MyFormat.NodeToString(expectedList4), MyFormat.NodeToString(_member.MergeTwoListsV2(inputL41, inputL42)));
+            Assert.AreEqual(MyFormat.Convert(expectedList1), MyFormat.Convert(_member.MergeTwoListsV2(inputL11, inputL12)));
+            Assert.AreEqual(MyFormat.Convert(expectedList2), MyFormat.Convert(_member.MergeTwoListsV2(inputL21, inputL22)));
+            Assert.AreEqual(MyFormat.Convert(expectedList3), MyFormat.Convert(_member.MergeTwoListsV2(inputL31, inputL32)));
+            Assert.AreEqual(MyFormat.Convert(expectedList4), MyFormat.Convert(_member.MergeTwoListsV2(inputL41, inputL42)));
         }
     }
 }

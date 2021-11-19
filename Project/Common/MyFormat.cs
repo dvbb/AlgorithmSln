@@ -6,50 +6,50 @@ namespace Common
 {
     public static class MyFormat
     {
-        public static string Format(int[] nums)
+        public static string Convert<T>(T[] nums)
         {
-            string result = "[";
-            for (int i = 0; i < nums.Length - 1; i++)
-            {
-                result += nums[i] + ",";
-            }
-            result += nums[nums.Length - 1] + "]";
-            return result;
-        }
-
-        public static string NodeToString(ListNode head)
-        {
-            if (head == null) return "[]";
-            string str = "[";
-            ListNode cur = head;
-            do
-            {
-                str += cur.val + ",";
-                cur = cur.next;
-            } while (cur != null);
-            return str.Substring(0, str.Length - 1) + "]";
-        }
-
-        public static string IntegerArrayToString(int[] nums)
-        {
-            if (nums.Length == 0) return "[]";
+            if (nums is null||nums.Length == 0) return "[]";
             string str = "[";
             for (int i = 0; i < nums.Length; i++)
             {
-                str += nums[i] + ",";
+                str += nums[i].ToString() + ",";
             }
             return str.Substring(0, str.Length - 1) + "]";
         }
 
-        public static string IntegerArrayToString(int[] nums, int length)
+        public static string Convert<T>(T[] nums, int length)
         {
-            if (nums.Length == 0) return "[]";
+            if (nums is null||nums.Length == 0) return "[]";
             string str = "[";
             for (int i = 0; i < length; i++)
             {
-                str += nums[i] + ",";
+                str += nums[i].ToString() + ",";
             }
             return str.Substring(0, str.Length - 1) + "]";
+        }
+
+        public static string Convert<T>(List<T> list)
+        {
+            if (list is null || list.Count == 0) return "[]";
+            T[] objects = list.ToArray();
+            string str = "[";
+            for (int i = 0; i < objects.Length; i++)
+            {
+                str += objects[i].ToString() + ",";
+            }
+            return str.Substring(0, str.Length - 1) + "]";
+        }
+
+        public static string Convert(ListNode head)
+        {
+            if (head == null) return "[]";
+            string result = "[";
+            while (head != null)
+            {
+                result += head.val + ",";
+                head = head.next;
+            }
+            return result.Substring(0, result.Length - 1) + "]";
         }
     }
 }

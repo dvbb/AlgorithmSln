@@ -29,10 +29,10 @@ namespace AlorithmTests.Easy
             string expected2 = "[1,2]";
             string expected3 = "[0,1]";
             string expected4 = "[0,3]";
-            Assert.AreEqual(MyFormat.Format(_member.TwoSumAdd(nums1, 9)), expected1);
-            Assert.AreEqual(MyFormat.Format(_member.TwoSumAdd(nums2, 6)), expected2);
-            Assert.AreEqual(MyFormat.Format(_member.TwoSumAdd(nums3, 6)), expected3);
-            Assert.AreEqual(MyFormat.Format(_member.TwoSumAdd(nums4, 6)), expected4);
+            Assert.AreEqual(MyFormat.Convert(_member.TwoSumAdd(nums1, 9)), expected1);
+            Assert.AreEqual(MyFormat.Convert(_member.TwoSumAdd(nums2, 6)), expected2);
+            Assert.AreEqual(MyFormat.Convert(_member.TwoSumAdd(nums3, 6)), expected3);
+            Assert.AreEqual(MyFormat.Convert(_member.TwoSumAdd(nums4, 6)), expected4);
         }                                                 
     }
 }

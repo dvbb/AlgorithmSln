@@ -36,36 +36,36 @@ namespace AlgorithmTests.sorter
         [Test]
         public void BubbleSortTest()
         {
-            Assert.AreEqual(MyFormat.Format(bubbleSort.Sort(nums1)), expected1);
-            Assert.AreEqual(MyFormat.Format(bubbleSort.Sort(nums2)), expected2);
+            Assert.AreEqual(MyFormat.Convert(bubbleSort.Sort(nums1)), expected1);
+            Assert.AreEqual(MyFormat.Convert(bubbleSort.Sort(nums2)), expected2);
         }
 
         [Test]
         public void SelectionSortTest()
         {
-            Assert.AreEqual(MyFormat.Format(selectionSort.Sort(nums1)), expected1);
-            Assert.AreEqual(MyFormat.Format(selectionSort.Sort(nums2)), expected2);
+            Assert.AreEqual(MyFormat.Convert(selectionSort.Sort(nums1)), expected1);
+            Assert.AreEqual(MyFormat.Convert(selectionSort.Sort(nums2)), expected2);
         }
 
         [Test]
         public void InsertionSortTest()
         {
-            Assert.AreEqual(MyFormat.Format(insertionSort.Sort(nums1)), expected1);
-            Assert.AreEqual(MyFormat.Format(insertionSort.Sort(nums2)), expected2);
+            Assert.AreEqual(MyFormat.Convert(insertionSort.Sort(nums1)), expected1);
+            Assert.AreEqual(MyFormat.Convert(insertionSort.Sort(nums2)), expected2);
         }
 
         [Test]
         public void ShellSortTest()
         {
-            Assert.AreEqual(MyFormat.Format(shellSort.Sort(nums1)), expected1);
-            Assert.AreEqual(MyFormat.Format(shellSort.Sort(nums2)), expected2);
+            Assert.AreEqual(MyFormat.Convert(shellSort.Sort(nums1)), expected1);
+            Assert.AreEqual(MyFormat.Convert(shellSort.Sort(nums2)), expected2);
         }
 
         [Test]
         public void MergeSortTest()
         {
-            Assert.AreEqual(MyFormat.Format(mergeSort.Sort(nums1)), expected1);
-            Assert.AreEqual(MyFormat.Format(mergeSort.Sort(nums2)), expected2);
+            Assert.AreEqual(MyFormat.Convert(mergeSort.Sort(nums1)), expected1);
+            Assert.AreEqual(MyFormat.Convert(mergeSort.Sort(nums2)), expected2);
         }
     }
 }

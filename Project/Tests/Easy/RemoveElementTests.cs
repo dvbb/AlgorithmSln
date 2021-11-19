@@ -43,15 +43,15 @@ namespace AlorithmTests.Easy
             int expected5 = 4;
 
             Assert.AreEqual(expected1,nums1.RemoveElementFunc(3));
-            Assert.AreEqual(MyFormat.IntegerArrayToString(expectedNums1),MyFormat.IntegerArrayToString(nums1,expected1));
+            Assert.AreEqual(MyFormat.Convert(expectedNums1),MyFormat.Convert(nums1,expected1));
             Assert.AreEqual(expected2, nums2.RemoveElementFunc(2));
-            Assert.AreEqual(MyFormat.IntegerArrayToString(expectedNums2), MyFormat.IntegerArrayToString(nums2, expected2));
+            Assert.AreEqual(MyFormat.Convert(expectedNums2), MyFormat.Convert(nums2, expected2));
             Assert.AreEqual(expected3, nums3.RemoveElementFunc(0));
-            Assert.AreEqual(MyFormat.IntegerArrayToString(expectedNums3), MyFormat.IntegerArrayToString(nums3, expected3));
+            Assert.AreEqual(MyFormat.Convert(expectedNums3), MyFormat.Convert(nums3, expected3));
             Assert.AreEqual(expected4, nums4.RemoveElementFunc(0));
-            Assert.AreEqual(MyFormat.IntegerArrayToString(expectedNums4), MyFormat.IntegerArrayToString(nums4, expected4));
+            Assert.AreEqual(MyFormat.Convert(expectedNums4), MyFormat.Convert(nums4, expected4));
             Assert.AreEqual(expected5, nums5.RemoveElementFunc(100));
-            Assert.AreEqual(MyFormat.IntegerArrayToString(expectedNums5), MyFormat.IntegerArrayToString(nums5, expected5));
+            Assert.AreEqual(MyFormat.Convert(expectedNums5), MyFormat.Convert(nums5, expected5));
         }
     }
 }

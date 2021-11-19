@@ -36,10 +36,10 @@ namespace AlorithmTests.Medium
             ListNode head4 = ListNode.CreateByIntArray(new int[] { 52, 25, 100, 100, 0, 52, 66 });
             ListNode expected4 = ListNode.CreateByIntArray(new int[] { 25, 52, 100, 100, 52, 0, 66 });
 
-            Assert.AreEqual(MyFormat.NodeToString(expected1), MyFormat.NodeToString(_member.SwapPairs(head1)));
-            Assert.AreEqual(MyFormat.NodeToString(expected2), MyFormat.NodeToString(_member.SwapPairs(head2)));
-            Assert.AreEqual(MyFormat.NodeToString(expected3), MyFormat.NodeToString(_member.SwapPairs(head3)));
-            Assert.AreEqual(MyFormat.NodeToString(expected4), MyFormat.NodeToString(_member.SwapPairs(head4)));
+            Assert.AreEqual(MyFormat.Convert(expected1), MyFormat.Convert(_member.SwapPairs(head1)));
+            Assert.AreEqual(MyFormat.Convert(expected2), MyFormat.Convert(_member.SwapPairs(head2)));
+            Assert.AreEqual(MyFormat.Convert(expected3), MyFormat.Convert(_member.SwapPairs(head3)));
+            Assert.AreEqual(MyFormat.Convert(expected4), MyFormat.Convert(_member.SwapPairs(head4)));
         }
     }
 }
