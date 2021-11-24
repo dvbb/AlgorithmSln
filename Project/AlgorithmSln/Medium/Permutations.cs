@@ -7,7 +7,7 @@ namespace Algorithm.Medium
     public class Permutations
     {
         /// <summary>
-        /// Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
+        /// 46.Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
         /// </summary>
         /// <param name="nums"></param>
         /// <returns></returns>

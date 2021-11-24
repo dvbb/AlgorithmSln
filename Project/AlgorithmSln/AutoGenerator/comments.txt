@@ -1,3 +1,2 @@
- public static ProvisioningState Failed { get; }
-393	        public static ProvisioningState Moving { get; }
-394	        public static ProvisioningState Running { get; }
+1 <= nums.length <= 8
+-10 <= nums[i] <= 10

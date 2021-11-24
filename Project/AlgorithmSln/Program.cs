@@ -11,10 +11,10 @@ namespace AlgorithmSln
             Console.WriteLine("Hello World!");
 
             EasyGen easyGen = new EasyGen("Myclass", "myFun");
-            easyGen.Generate();
+            //easyGen.Generate();
 
-            MediumGen mediumGen = new MediumGen("Myclass", "myFun");
-            //mediumGen.Generate();
+            MediumGen mediumGen = new MediumGen("PermutationsII", "PermuteUnique");
+            mediumGen.Generate();
 
             Console.WriteLine($"completed.");
         }

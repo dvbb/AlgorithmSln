@@ -14,6 +14,8 @@ namespace Algorithm.AutoGenerator
 
         protected static string[] _comments => GetComments();
 
+        protected static Dictionary<string, string> _example => GetExample();
+
         protected static string _className;
 
         protected static string _funcName;
@@ -32,6 +34,12 @@ namespace Algorithm.AutoGenerator
             List<string> list = new List<string>(File.ReadAllLines(@".\..\..\..\..\..\Project\AlgorithmSln\AutoGenerator\comments.txt"));
             list.Remove("");
             return list.ToArray();
+        }
+
+        private static Dictionary<string, string> GetExample()
+        {
+            List<string> list = new List<string>(File.ReadAllLines(@".\..\..\..\..\..\Project\AlgorithmSln\AutoGenerator\comments.txt"));
+            return new Dictionary<string, string>();
         }
 
         internal void Generate(CodeType type = CodeType.Easy)
@@ -83,6 +91,7 @@ namespace Algorithm.AutoGenerator
             _codeWriter.Add("        [Test]");
             _codeWriter.Add($"        public void {_funcName}()");
             _codeWriter.Add("        {");
+            //AddInitialization();
             _codeWriter.Add("        }");
             _codeWriter.Add("    }");
         }
@@ -98,6 +107,10 @@ namespace Algorithm.AutoGenerator
             {
                 _codeWriter.Add($"        /// {item}");
             }
+        }
+
+        internal static void AddExample()
+        {
         }
     }
 }

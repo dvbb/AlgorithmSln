@@ -8,7 +8,7 @@ namespace Common
     {
         public static string Convert<T>(T[] nums)
         {
-            if (nums is null||nums.Length == 0) return "[]";
+            if (nums is null || nums.Length == 0) return "[]";
             string str = "[";
             for (int i = 0; i < nums.Length; i++)
             {
@@ -19,7 +19,7 @@ namespace Common
 
         public static string Convert<T>(T[] nums, int length)
         {
-            if (nums is null||nums.Length == 0) return "[]";
+            if (nums is null || nums.Length == 0) return "[]";
             string str = "[";
             for (int i = 0; i < length; i++)
             {
@@ -28,10 +28,11 @@ namespace Common
             return str.Substring(0, str.Length - 1) + "]";
         }
 
-        public static string Convert<T>(List<T> list)
+        public static string Convert<T>(IList<T> list)
         {
             if (list is null || list.Count == 0) return "[]";
-            T[] objects = list.ToArray();
+            List<T> oblist = new List<T>(list);
+            T[] objects = oblist.ToArray();
             string str = "[";
             for (int i = 0; i < objects.Length; i++)
             {
