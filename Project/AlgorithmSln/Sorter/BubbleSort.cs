@@ -13,7 +13,7 @@ namespace Algorithm.Sorter
             int temp;
             for (int i = 0; i < nums.Length; i++)
             {
-                for (int j = 0; j < nums.Length; j++)
+                for (int j = 0; j < i; j++)
                 {
                     if (nums[j] > nums[i])
                     {
