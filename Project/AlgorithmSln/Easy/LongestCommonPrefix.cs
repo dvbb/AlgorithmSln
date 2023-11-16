@@ -14,13 +14,18 @@ namespace Algorithm.Easy
         /// <returns></returns>
         public string GetLongestCommonPrefix(string[] strs)
         {
-            string prefix = strs[0];
-            if (strs.Length == 1)
+            if (strs.Length == 1 || strs[0] == "")
             {
-                return prefix;
+                return strs[0];
             }
+            // 取最小的str为prefix
+            string prefix = strs[0];
             for (int i = 1; i < strs.Length; i++)
             {
+                if (strs[i] == "")
+                {
+                    return "";
+                }
                 prefix = prefix.Length > strs[i].Length ? strs[i] : prefix;
             }
             for (int i = 0; i < strs.Length; i++)

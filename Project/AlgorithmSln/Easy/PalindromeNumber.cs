@@ -12,6 +12,12 @@ namespace AlgorithmSln
 
         //Input: x = 121
         //Output: true
+
+        /// <summary>
+        /// 52 ms   30.7 MB
+        /// </summary>
+        /// <param name="x"></param>
+        /// <returns></returns>
         public bool IsPalindrome(int x)
         {
             if (x < 0)
@@ -34,6 +40,36 @@ namespace AlgorithmSln
                 {
                     return false;
                 }
+            }
+            return true;
+        }
+
+        /// <summary>
+        /// 44 ms   29.2 MB
+        /// </summary>
+        /// <param name="x"></param>
+        /// <returns></returns>
+        public bool IsPalindromeV2(int x)
+        {
+            if (x < 0)
+            {
+                return false;
+            }
+            if (x < 10)
+            {
+                return true;
+            }
+            string nums = Convert.ToString(x);
+            int i = 0;
+            int j = nums.Length - 1;
+            while (i != j && i < j)
+            {
+                if (nums[i] != nums[j])
+                {
+                    return false;
+                }
+                i++;
+                j--;
             }
             return true;
         }
