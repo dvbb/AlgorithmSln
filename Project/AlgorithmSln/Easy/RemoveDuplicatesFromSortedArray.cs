@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 
 namespace Algorithm.Easy
@@ -29,6 +31,19 @@ namespace Algorithm.Easy
                 }
             }
             return total;
+        }
+
+        public int RemoveDuplicatesV2(int[] nums)
+        {
+            if (nums.Length == 0) return 0;
+            if (nums.Length == 1) return 1;
+
+            HashSet<int> hash = new HashSet<int>();
+            foreach (var num in nums)
+            {
+                hash.Add(num);
+            }
+            return hash.Count();
         }
     }
 }

@@ -50,6 +50,12 @@ namespace AlorithmTests.Easy
             Assert.AreEqual(expected3, _member.RemoveDuplicates(nums3));
             Assert.AreEqual(expected4, _member.RemoveDuplicates(nums4));
             Assert.AreEqual(expected5, _member.RemoveDuplicates(nums5));
+
+            Assert.AreEqual(expected1, _member.RemoveDuplicatesV2(nums1));
+            Assert.AreEqual(expected2, _member.RemoveDuplicatesV2(nums2));
+            Assert.AreEqual(expected3, _member.RemoveDuplicatesV2(nums3));
+            Assert.AreEqual(expected4, _member.RemoveDuplicatesV2(nums4));
+            Assert.AreEqual(expected5, _member.RemoveDuplicatesV2(nums5));
         }
     }
 }
